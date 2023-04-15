@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.content{
+    height: 50vh;
+    color: antiquewhite;
+}
+
+.icon
+{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+.item
+{
+    height: 90vh;
+    width: 30vw;
+    margin:3vw 6vw;
+}
+.icon img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 5vw 12vw;
+
+}
+
+.cnt {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text{
+    margin: 0 44%;
+}
+
+.faces
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+.maleimg img{
+    /* vertical-align: middle; */
+    /* display: flex;
+    align-content: center; */
+    /* margin: 20vh 30vw; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 10vh;
+}
+
+
+.femaleimg img{
+    /* vertical-align: middle; */
+    /* display: flex;
+    align-content: center; */
+    /* margin: 20vh 30vw; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 10vh;
+}
+
+main{
+    background-color: rgb(225, 225, 225);
+}
+
+#view{
+    /* display: flex;
+    justify-content: center; */
+    height: 38vh;
+    width: 38vh;
+    margin: 12%;
+}
+
+#view2{
+    height: 38vh;
+    width: 38vh;
+    margin: 12%;
+}
+
+#favicon{
+    width:90px;
+    height:90px;
+}

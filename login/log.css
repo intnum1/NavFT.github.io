@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.login{
+    margin: 50vh 50vw;
+}
+.container{
+    background-color: #e3f2fd;
+    /* margin: 2vh ; */
+    height: 40vh;
+    width: 25vw;
+    border-radius: 12%;
+    border: 1px solid black;
+    margin: -100vh 300vh;
+}
+
+#email{
+    padding: 5vh;
+}
+
+#password
+{
+    padding: 5vh;
+}
+
+#butt{
+    height: 4vh;
+    width: 6vw;
+    margin: 2vh 9vw;
+}
